@@ -32,7 +32,4 @@ public class Point {
   @Id
   private String id;
   private String name;
-
-  @DBRef
-  private Request request;
 }

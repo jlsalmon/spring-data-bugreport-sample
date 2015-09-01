@@ -36,4 +36,7 @@ public class Request {
   @Id
   private String id;
   private String name;
+
+  @DBRef
+  private List<Point> points;
 }
