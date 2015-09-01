@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * Created by jussy on 31/08/15.
+ * @author Justin Lewis Salmon
  */
 public interface PointRepository extends MongoRepository<Point, String> {
 }
